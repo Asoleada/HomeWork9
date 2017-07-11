@@ -17,6 +17,7 @@ $background-grey-color: #333333;
 $menu-background-color: #232323;
 $text-grey-color: #979797;
 $text-orange-color: #FF9900;
+$border-color-grey: #DEDEDE;
 
 header {
   background-color: $background-grey-color;
@@ -58,18 +59,21 @@ margin-top: 20px;
 
 
 
-#picture {
+.marginTop {
   margin-top: 30px;
 }
 
-
-#four {
-  margin-top: 50px;
+.marginBottom {
   margin-bottom: 30px;
 }
 
+#four {
+  margin-top: 50px;
+  @extend .marginBottom;
+}
+
 .lorumBox{
-  font-size: 15px;
+  font-size: 14px;
   color: $text-grey-color;
 
   img{
@@ -95,7 +99,7 @@ margin-top: 20px;
   clear:both;
 }
 
-.lorumA {
+.styleA {
   float: right;
 
   a{
@@ -109,11 +113,24 @@ margin-top: 20px;
 }
 
 
-.lorumA a:hover {
+.styleA a:hover {
   color: orangered;
 }
 
 
 
+#three {
+  border-top: 1px solid $border-color-grey;
+  border-bottom: 1px solid $border-color-grey;
+  overflow: hidden;
+}
 
+.pictureBox {
+  margin-top: 30px;
+  margin-bottom: 15px;
+
+  img{
+    border-radius: 0;
+  }
+}
 
