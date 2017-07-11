@@ -1,0 +1,77 @@
+@media screen and (min-width:960px) {
+  .width {
+    width: 960px;
+    margin: 0 auto;
+  }
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Raleway', serif;
+}
+
+
+$head-font-color: #C0BAB6;
+$background-grey-color: #333333;
+$menu-background-color: #232323;
+$text-grey-color: #979797;
+$text-orange-color: #FF9900;
+
+header {
+  background-color: $background-grey-color;
+  color: $head-font-color;
+
+  h1{
+    font-size: 35px;
+    margin-bottom:0;
+    margin-top: 15px;
+
+  }
+
+  p{
+    font-size: 15px;
+  }
+}
+
+#menu {
+margin-top: 20px;
+
+}
+
+/*
+.width {
+  background-color: antiquewhite;
+}
+*/
+
+
+#head {
+  margin-top:5px;
+  margin-bottom: 5px;
+}
+
+#border {
+  border:none;
+  border-radius: 0;
+}
+
+
+
+#picture {
+  margin-top: 30px;
+
+  img {width: 100%;
+    height: auto;}
+
+}
+
+
+
+/*
+#picture {
+  background-image: url("960x360.gif");
+  height: 360px;
+  margin-top: 30px;
+}
+*/

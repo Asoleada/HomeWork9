@@ -1,0 +1,49 @@
+@media screen and (min-width: 960px) {
+  .width {
+    width: 960px;
+    margin: 0 auto; } }
+body {
+  margin: 0;
+  font-family: 'Raleway', serif; }
+
+header {
+  background-color: #333333;
+  color: #C0BAB6; }
+  header h1 {
+    font-size: 35px;
+    margin-bottom: 0;
+    margin-top: 15px; }
+  header p {
+    font-size: 15px; }
+
+#menu {
+  margin-top: 20px; }
+
+/*
+.width {
+  background-color: antiquewhite;
+}
+*/
+#head {
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+#border {
+  border: none;
+  border-radius: 0; }
+
+#picture {
+  margin-top: 30px; }
+  #picture img {
+    width: 100%;
+    height: auto; }
+
+/*
+#picture {
+  background-image: url("960x360.gif");
+  height: 360px;
+  margin-top: 30px;
+}
+*/
+
+/*# sourceMappingURL=style.css.map */
