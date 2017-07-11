@@ -34,16 +34,36 @@ header {
 
 #picture {
   margin-top: 30px; }
-  #picture img {
-    width: 100%;
-    height: auto; }
 
-/*
-#picture {
-  background-image: url("960x360.gif");
-  height: 360px;
-  margin-top: 30px;
-}
-*/
+#four {
+  margin-top: 50px;
+  margin-bottom: 30px; }
+
+.lorumBox {
+  font-size: 15px;
+  color: #979797; }
+  .lorumBox img {
+    display: inline; }
+  .lorumBox h1 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px; }
+
+.lorumImg, .lorumH1 {
+  float: left; }
+
+.lorumP {
+  clear: both; }
+
+.lorumA {
+  float: right; }
+  .lorumA a {
+    color: #FF9900; }
+  .lorumA i {
+    font-size: 10px; }
+
+.lorumA a:hover {
+  color: orangered; }
 
 /*# sourceMappingURL=style.css.map */

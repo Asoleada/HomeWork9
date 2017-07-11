@@ -60,18 +60,60 @@ margin-top: 20px;
 
 #picture {
   margin-top: 30px;
+}
 
-  img {width: 100%;
-    height: auto;}
+
+#four {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.lorumBox{
+  font-size: 15px;
+  color: $text-grey-color;
+
+  img{
+    display: inline;
+  }
+
+  h1 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
 
 }
 
 
-
-/*
-#picture {
-  background-image: url("960x360.gif");
-  height: 360px;
-  margin-top: 30px;
+.lorumImg, .lorumH1 {
+  float:left;
 }
-*/
+
+
+.lorumP {
+  clear:both;
+}
+
+.lorumA {
+  float: right;
+
+  a{
+    color: $text-orange-color;
+  }
+
+  i {
+    font-size: 10px;
+  }
+
+}
+
+
+.lorumA a:hover {
+  color: orangered;
+}
+
+
+
+
+
