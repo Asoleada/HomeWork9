@@ -6,6 +6,13 @@
 }
 
 
+@media screen and (min-width:768px) {
+  .middle {
+    margin: 0 auto;
+  }
+}
+
+
 body {
   margin: 0;
   font-family: 'Raleway', serif;
@@ -72,6 +79,7 @@ margin-top: 20px;
   @extend .marginBottom;
 }
 
+
 .lorumBox{
   font-size: 14px;
   color: $text-grey-color;
@@ -88,6 +96,7 @@ margin-top: 20px;
   }
 
 }
+
 
 
 .lorumImg, .lorumH1 {
@@ -134,3 +143,26 @@ margin-top: 20px;
   }
 }
 
+
+.OneRow {
+  img{
+    border-radius: 0;
+  }
+}
+
+
+
+.OneRowText {
+  padding-top: 5px;
+  font-size: 14px;
+  color: $text-grey-color;
+
+  h1 {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  span {
+    color: $text-orange-color;
+  }
+}

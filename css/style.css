@@ -2,6 +2,9 @@
   .width {
     width: 960px;
     margin: 0 auto; } }
+@media screen and (min-width: 768px) {
+  .middle {
+    margin: 0 auto; } }
 body {
   margin: 0;
   font-family: 'Raleway', serif; }
@@ -78,5 +81,18 @@ header {
   margin-bottom: 15px; }
   .pictureBox img {
     border-radius: 0; }
+
+.OneRow img {
+  border-radius: 0; }
+
+.OneRowText {
+  padding-top: 5px;
+  font-size: 14px;
+  color: #979797; }
+  .OneRowText h1 {
+    font-size: 15px;
+    font-weight: bold; }
+  .OneRowText span {
+    color: #FF9900; }
 
 /*# sourceMappingURL=style.css.map */
