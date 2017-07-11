@@ -1,4 +1,4 @@
-@media screen and (min-width:960px) {
+@media screen and (min-width:992px) {
   .width {
     width: 960px;
     margin: 0 auto;
@@ -25,6 +25,7 @@ $menu-background-color: #232323;
 $text-grey-color: #979797;
 $text-orange-color: #FF9900;
 $border-color-grey: #DEDEDE;
+$links-color-grey: #666666;
 
 header {
   background-color: $background-grey-color;
@@ -147,13 +148,14 @@ margin-top: 20px;
 .OneRow {
   img{
     border-radius: 0;
+
   }
 }
 
 
 
 .OneRowText {
-  padding-top: 5px;
+  padding-top: 15px;
   font-size: 14px;
   color: $text-grey-color;
 
@@ -164,5 +166,61 @@ margin-top: 20px;
 
   span {
     color: $text-orange-color;
+  }
+}
+
+#categories {
+ padding-top: 10px;
+
+  h1{
+    font-size: 18px;
+    font-weight: bold;
+    color: $text-grey-color;
+    border-bottom: 1px solid $border-color-grey;
+    padding-bottom: 15px;
+    margin-left: 15px;
+  }
+
+  a{
+    color: $links-color-grey;
+  }
+
+  ul{
+    list-style-image: url('orange_file.gif');
+    padding-left: 15px;
+  }
+
+li{
+  border-bottom: 1px dotted $links-color-grey;
+  padding-top: 5px;
+  padding-bottom: 2px;
+  margin-left: 15px;
+
+}
+
+}
+
+#bottom {
+  margin-top:10px;
+  @extend .marginBottom;
+}
+
+
+
+footer{
+  background-color: $menu-background-color;
+  color: $text-grey-color;
+  font-size: 15px;
+  padding-top:20px;
+  padding-bottom: 5px;
+}
+
+p#right {
+  text-align: right;
+}
+
+@media screen and (max-width:412px) {
+  p#right {
+    text-align: left;
   }
 }
