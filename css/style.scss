@@ -1,3 +1,4 @@
+
 @media screen and (min-width:992px) {
   .width {
     width: 960px;
@@ -7,8 +8,8 @@
 
 
 @media screen and (min-width:768px) {
-  .middle {
-    margin: 0 auto;
+  p#right {
+    text-align: right;
   }
 }
 
@@ -26,6 +27,7 @@ $text-grey-color: #979797;
 $text-orange-color: #FF9900;
 $border-color-grey: #DEDEDE;
 $links-color-grey: #666666;
+$hover-color: #ff6407;
 
 header {
   background-color: $background-grey-color;
@@ -48,12 +50,6 @@ margin-top: 20px;
 
 }
 
-/*
-.width {
-  background-color: antiquewhite;
-}
-*/
-
 
 #head {
   margin-top:5px;
@@ -64,7 +60,6 @@ margin-top: 20px;
   border:none;
   border-radius: 0;
 }
-
 
 
 .marginTop {
@@ -95,9 +90,7 @@ margin-top: 20px;
     margin-top: 10px;
     margin-left: 10px;
   }
-
 }
-
 
 
 .lorumImg, .lorumH1 {
@@ -119,12 +112,12 @@ margin-top: 20px;
   i {
     font-size: 10px;
   }
-
 }
 
 
-.styleA a:hover {
-  color: orangered;
+.styleA a:hover, .OneRowText a:hover, #List a:hover  {
+  color: $hover-color;
+  text-decoration: none;
 }
 
 
@@ -153,7 +146,6 @@ margin-top: 20px;
 }
 
 
-
 .OneRowText {
   padding-top: 15px;
   font-size: 14px;
@@ -164,10 +156,11 @@ margin-top: 20px;
     font-weight: bold;
   }
 
-  span {
+  a {
     color: $text-orange-color;
   }
 }
+
 
 #categories {
  padding-top: 10px;
@@ -178,7 +171,6 @@ margin-top: 20px;
     color: $text-grey-color;
     border-bottom: 1px solid $border-color-grey;
     padding-bottom: 15px;
-    margin-left: 15px;
   }
 
   a{
@@ -187,25 +179,21 @@ margin-top: 20px;
 
   ul{
     list-style-image: url('orange_file.gif');
-    padding-left: 15px;
+   padding-left: 10px;
   }
 
 li{
   border-bottom: 1px dotted $links-color-grey;
   padding-top: 5px;
   padding-bottom: 2px;
-  margin-left: 15px;
-
+}
 }
 
-}
 
 #bottom {
   margin-top:10px;
   @extend .marginBottom;
 }
-
-
 
 footer{
   background-color: $menu-background-color;
@@ -215,12 +203,3 @@ footer{
   padding-bottom: 5px;
 }
 
-p#right {
-  text-align: right;
-}
-
-@media screen and (max-width:412px) {
-  p#right {
-    text-align: left;
-  }
-}

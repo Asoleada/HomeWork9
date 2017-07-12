@@ -3,8 +3,8 @@
     width: 960px;
     margin: 0 auto; } }
 @media screen and (min-width: 768px) {
-  .middle {
-    margin: 0 auto; } }
+  p#right {
+    text-align: right; } }
 body {
   margin: 0;
   font-family: 'Raleway', serif; }
@@ -22,11 +22,6 @@ header {
 #menu {
   margin-top: 20px; }
 
-/*
-.width {
-  background-color: antiquewhite;
-}
-*/
 #head {
   margin-top: 5px;
   margin-bottom: 5px; }
@@ -68,8 +63,9 @@ header {
   .styleA i {
     font-size: 10px; }
 
-.styleA a:hover {
-  color: orangered; }
+.styleA a:hover, .OneRowText a:hover, #List a:hover {
+  color: #ff6407;
+  text-decoration: none; }
 
 #three {
   border-top: 1px solid #DEDEDE;
@@ -92,7 +88,7 @@ header {
   .OneRowText h1 {
     font-size: 15px;
     font-weight: bold; }
-  .OneRowText span {
+  .OneRowText a {
     color: #FF9900; }
 
 #categories {
@@ -102,18 +98,16 @@ header {
     font-weight: bold;
     color: #979797;
     border-bottom: 1px solid #DEDEDE;
-    padding-bottom: 15px;
-    margin-left: 15px; }
+    padding-bottom: 15px; }
   #categories a {
     color: #666666; }
   #categories ul {
     list-style-image: url("orange_file.gif");
-    padding-left: 15px; }
+    padding-left: 10px; }
   #categories li {
     border-bottom: 1px dotted #666666;
     padding-top: 5px;
-    padding-bottom: 2px;
-    margin-left: 15px; }
+    padding-bottom: 2px; }
 
 #bottom {
   margin-top: 10px; }
@@ -124,12 +118,5 @@ footer {
   font-size: 15px;
   padding-top: 20px;
   padding-bottom: 5px; }
-
-p#right {
-  text-align: right; }
-
-@media screen and (max-width: 412px) {
-  p#right {
-    text-align: left; } }
 
 /*# sourceMappingURL=style.css.map */
